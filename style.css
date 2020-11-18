@@ -21,7 +21,7 @@ header {
 	top: 0;
 }
 
-a {
+header a {
 	color: white;
 	padding: 0px 20px 0px 20px;
 	line-height: 80px;
@@ -34,10 +34,11 @@ nav {
 	font-size: 1.5em;
 }
 
-a:hover{
+header a:hover{
 	font-size: 1.05em;
 	padding-left: 16px;
 }
+
 #home {
 	width: 100%;
 	display: flex;
@@ -54,4 +55,63 @@ h1 {
 
 #home p {
 	font-size: 2em;
+}
+
+#projects {
+	padding-top: 90px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: blue;
+}
+
+h2 {
+	text-decoration: underline;
+	font-size: 2em;
+	margin-bottom: 50px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	border-radius: 2px;
+}
+
+#projectsquares {
+	column-count: 3;
+	column-gap: 5%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	color: white;
+}
+
+.projectfig {
+	width: 100%;
+	background-color: gray;
+	padding-bottom: 20px;
+	font-size: 1.5em;
+	border-radius: 3px;
+}
+
+figure:hover {
+	text-decoration: underline;
+}
+
+figcaption {
+	padding-top: 10px;
+}
+
+#contact {
+	width: 100%;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+	height: 100vh;
+}
+
+footer {
+	background-color: red;
 }
