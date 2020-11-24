@@ -5,15 +5,19 @@
 	<link rel="stylesheet" href="./style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
 </head>
 <body>
-<header>
-	<nav>
-		<a href="#home">Home</a>
-		<a href="#projects">Projects</a>
-		<a href="#contact">Contact</a>
-	<nav>
-</header>
+
+<nav>
+	<a id="logo">STEPHEN MESSER</a>
+	<div id="navtags">
+	<a href="#contact">Contact</a>
+	<a href="#projects">Projects</a>
+	<a href="#home">Home</a>
+	</div>
+</nav>
 
 <section id="home">
 	<div>
@@ -23,14 +27,14 @@
 </section>
 
 <section id="projects">
-	<h2 id="projectstitle">Here are some things I've been working on.</h2>
+	<h2 id="projectstitle">Here are some things I've been working on</h2>
 
 	<div id="projectsquares">
 
 		<div class="projectfig">
 			<figure>
-				<a href="https://repl.it/@sttteephen/Hangman#words.txt" target="blank">
-					<img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png">
+				<a href="https://repl.it/@sttteephen/Hangman#README.md" target="blank">
+					<img src="hangman_screenshot.png">
 					<figcaption>Hangman</figcaption>
 				</a>
 			</figure>
@@ -38,8 +42,8 @@
 
 		<div class="projectfig">
 			<figure>
-				<a href="https://repl.it/@sttteephen/ToDoList#.replit" target="blank">
-					<img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png">
+				<a href="https://repl.it/@sttteephen/ToDoList#README.md" target="blank">
+					<img src="todo_screenshot.png">
 					<figcaption>To Do List</figcaption>
 				</a>
 			</figure>
@@ -48,7 +52,7 @@
 		<div class="projectfig">
 			<figure>
 				<a href="file:///Users/stephenmesser/Desktop/FreeCodeCamp/ChristmasCountdown/index.html" target="blank">
-					<img src="https://homepages.cae.wisc.edu/~ece533/images/airplane.png">
+					<img src="christmas_screenshot.png">
 					<figcaption>Christmas Countdown</figcaption>
 				</a>
 			</figure>
@@ -59,9 +63,11 @@
 
 <section id="contact">
 	<h2>Get In Touch...</h2>
-	<p>Github</p>
-	<p>Linkedin</p>
-	<p>Email</p>
+	<div id="links">
+		<a class="icons" href="https://github.com/sttteephen" target="blank">Github <i class="fa fa-github"></i></a>
+		<a class="icons" href="https://www.linkedin.com/in/stephen-messer-393ba61b9/" target="blank">Linkedin <i class="fa fa-linkedin"></i></a>
+		<a class="icons">Email <i class="fa fa-at"></i> </a>
+	</div>
 </section>
 
 <script type="text/javascript" src="script.js"></script>
