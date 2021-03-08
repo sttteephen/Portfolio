@@ -1,6 +1,4 @@
-var i = 0;
-var txt = 'Thanks for checking out my page.';
-
+// produces the typing effect on welcome message when page is loaded
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("welcome_message").innerHTML += txt.charAt(i);
@@ -9,10 +7,14 @@ function typeWriter() {
   }
 }
 
+var i = 0;
+var txt = 'Thanks for checking out my page.';
+
 typeWriter();
 
 let root = document.documentElement;
 
+// changes the color of the nav bar depending on position on page
 window.addEventListener('scroll', function() {
 
 	var windowHeight = window.innerHeight
