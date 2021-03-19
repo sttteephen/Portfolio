@@ -126,7 +126,7 @@ h2 {
 .projectdiv {
 	background-color: #35475C;
 	margin: 20px;
-	width: 450px;
+	width: 425px;
 	border-radius: 20px;;
 }
 
@@ -145,7 +145,7 @@ a {
 	color: white;
 }
 
-.projectdiv p:hover {
+.projectdiv a:hover {
 	text-decoration: underline;
 }
 
