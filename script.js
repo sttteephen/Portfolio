@@ -17,8 +17,9 @@ let root = document.documentElement;
 // changes the color of the nav bar depending on position on page
 window.addEventListener('scroll', function() {
 
-	var windowHeight = window.innerHeight
-	var yOffset = window.pageYOffset
+	var windowHeight = window.innerHeight;
+	var yOffset = window.pageYOffset;
+	var bottom = document.body.offsetHeight;
 
 	if (yOffset < (windowHeight-80)) {
 		root.style.setProperty('--navcolor', '#30475e');
@@ -28,7 +29,7 @@ window.addEventListener('scroll', function() {
 		root.style.setProperty('--navcolor', '#f1935c');
 	} 
 
-	if (yOffset > (2*windowHeight)-80) {
+	if (yOffset > (bottom - windowHeight - 80)) {
 		root.style.setProperty('--navcolor', '#85a392');
 	}
 });
