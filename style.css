@@ -175,6 +175,10 @@ figcaption {
 }
 
 @media screen and (max-width: 600px) {
+	#contact {
+		text-align: center;
+	}
+
 	#links {
 		display: flex;
 		flex-direction: column;
